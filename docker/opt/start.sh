@@ -128,10 +128,10 @@ INSTALL_PACKAGES="zimbra-core zimbra-ldap zimbra-logger zimbra-mta zimbra-snmp z
 EOF
 ##Install the Zimbra Collaboration ##
 echo "Downloading Zimbra Collaboration 8.8.7"
-wget -O /opt/zimbra-install/zimbra-zcs-8.8.15.tar.gz https://files.zimbra.com/downloads/8.8.15_GA/zcs-8.8.15_GA_4179.UBUNTU20_64.20211118033954.tgz
+wget -O /opt/zimbra-install/zimbra-zcs-8.8.7.tar.gz https://files.zimbra.com/downloads/8.8.15_GA/zcs-8.8.7_GA_4179.UBUNTU20_64.20211118033954.tgz
 
 echo "Extracting files from the archive"
-tar xzvf /opt/zimbra-install/zimbra-zcs-8.8.15.tar.gz -C /opt/zimbra-install/
+tar xzvf /opt/zimbra-install/zimbra-zcs-8.8.7.tar.gz -C /opt/zimbra-install/
 
 echo "Update package cache"
 apt update
