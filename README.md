@@ -19,9 +19,8 @@ apt-cache policy docker-ce
 **Tâche n°6 : Installer Docker**  
 sudo apt install docker-ce  
 
-# Creating Zimbra Containers
-
-**Tâche n°6 : git clone https://github.com/amirouchef/docker-zimbra.git**  
+**Tâche n°7 : Creating Zimbra Containers**  
+git clone https://github.com/amirouchef/docker-zimbra.git  
 cd docker-zimbra/docker  
 sudo docker build -t monzimbra .  
 
